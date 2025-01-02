@@ -9,7 +9,7 @@ TruthTrack provides a system for analyzing news article headlines by predicting 
    - Cosine Similarity (TF-IDF)
    - Levenshtein Similarity
    - Semantic Matching (Sentence Transformers)
-3. **Google Search Integration**: Fetches top 5 related headlines from the web using the Google Custom Search API.
+3. **Custom Search Integration**: Fetches top 5 related headlines from the web using the Custom Search API.
 4. **Combined Similarity Score**: Aggregates similarity scores using the harmonic mean for better relevance analysis.
 5. **Web Application**: A Flask-based user interface for interacting with the system.
 
@@ -31,7 +31,7 @@ TruthTrack provides a system for analyzing news article headlines by predicting 
 
 ### Prerequisites
 - Python 3.8 or above
-- Google Custom Search API credentials (API Key and Search Engine ID)
+- Custom Search API credentials (API Key and Search Engine ID)
 
 ### Steps
 1. **Clone the Repository**:
