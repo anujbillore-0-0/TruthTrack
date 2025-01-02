@@ -1,16 +1,40 @@
-# my_app
+# TruthTrack: Misinformation Detection App
 
-A new Flutter project.
+TruthTrack is a Flutter application that analyzes and verifies news content using AI and NLP techniques to combat misinformation.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Features
+- **Real-Time Adaptability**: Updates with trending topics and misinformation patterns.
+- **Sentiment & Propaganda Analysis**: Detects emotional and biased content.
+- **Source Validation**: Cross-references with trusted sources.
+- **Cross-Platform Accessibility**: Works seamlessly on web, Chrome, and mobile.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Tech Stack
+- **Frontend**: Flutter, Dart
+- **Backend**: Custom Search API, BeautifulSoup
+- **Algorithms**: BERT Models, TF-IDF, Levenshtein Distance
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## Installation
+
+### Prerequisites:
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- [Dart SDK](https://dart.dev/get-dart)
+
+### Steps:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/TruthTrack.git
+2. Navigate to the project directory:
+    ```bash
+    cd TruthTrack/truthteller_application
+4. Install dependencies:
+    ```bash
+    flutter pub get
+4, Run the app:
+  ```bash
+    flutter run
