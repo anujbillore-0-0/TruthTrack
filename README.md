@@ -59,19 +59,58 @@ TruthTrack provides a system for analyzing news article headlines by predicting 
 
 ## File Structure
 ```
-news-topic-prediction/
-|-- App.py                # Main Flask application
-|-- Prediction.py         # Topic prediction logic
-|-- similarity.py         # Similarity calculation methods
-|-- templates/
-|   |-- index.html        # Home page template
-|   |-- main.html         # Result and interaction page template
-|-- News Proto/
-|   |-- tfidf_vectorizer.pkl # Pre-trained TF-IDF vectorizer
-|   |-- nmf_model.pkl        # Pre-trained NMF model
-|-- static/               # CSS/JS files (if applicable)
-|-- requirements.txt      # Python dependencies
-|-- README.md             # Project documentation
+murtaza-sadri-19-TruthTrack/
+├── README.md                              # Main documentation for the project
+├── News_Topic_.ipynb                      # Jupyter notebook for news topic analysis
+├── Prediction.py                          # Python script for prediction-related functionalities
+├── app.py                                 # Flask backend for the application
+├── demo.py                                # Script to demonstrate the working of the application
+├── requirements.txt                       # List of Python dependencies for the project
+├── similarity.py                          # Script for computing similarity between news articles
+├── Dataset/                               # Directory containing datasets and scrapers
+│   ├── Web_Scrapping_Snopes.csv           # CSV dataset scraped from Snopes
+│   ├── Web_Scrapping_factcheck.csv        # CSV dataset scraped from fact-checking sites
+│   ├── cricket.ipynb                      # Notebook analyzing cricket-related news
+│   ├── PolitiFact/                        # Subdirectory for PolitiFact-related datasets
+│   │   ├── FactChecker_Dataset.csv        # Dataset from PolitiFact for fact-checking
+│   │   └── ScrapCode.ipynb                # Scraper for PolitiFact data
+│   └── TheHinduCricket/                   # Subdirectory for cricket news from The Hindu
+│       ├── Web_Scraping.ipynb             # Notebook for scraping cricket news from The Hindu
+│       └── Web_Scrapping_Hindu.csv        # CSV dataset scraped from The Hindu cricket section
+├── News Proto/                            # Directory for prototype models and related files
+│   ├── PAM based model.ipynb              # Notebook for PAM-based model experimentation
+│   ├── news.csv                           # CSV file for news data
+│   ├── news.tsv                           # TSV file for news data
+│   ├── news.zip                           # Compressed file containing news datasets
+│   ├── nmf_model.pkl                      # Saved NMF model for topic modeling
+│   ├── nmf_model_params.json              # Parameters for the NMF model
+│   └── tfidf_vectorizer.pkl               # TF-IDF vectorizer used in topic modeling
+├── News Topic/                            # Directory for topic modeling and analysis
+│   ├── News_Topic.ipynb                   # Jupyter notebook for analyzing news topics
+│   ├── News_Topic.md                      # Documentation for the news topic analysis
+│   ├── News_Topic_.ipynb                  # Duplicate or updated notebook for news topics
+│   ├── Similarity_news.ipynb              # Notebook for calculating similarity between topics
+│   ├── categorized_news.zip               # Compressed file containing categorized news
+│   ├── lda_dictionary.txt                 # Dictionary used in LDA modeling
+│   ├── lda_model.json                     # JSON representation of the LDA model
+│   ├── lda_model.model                    # Binary representation of the trained LDA model
+│   ├── lda_model.model.expElogbeta.npy    # LDA model's beta matrix (numpy format)
+│   ├── lda_model.model.id2word            # Mapping of IDs to words for the LDA model
+│   ├── lda_model.model.state              # State of the trained LDA model
+│   ├── lda_model1.json                    # Another JSON representation of an LDA model
+│   ├── news_topic.zip                     # Compressed file containing topic-related data
+│   └── .idea/                             # IDE-specific metadata (optional to include)
+├── templates/                             # Frontend HTML templates for the web app
+│   ├── index.html                         # Main page template
+│   └── main.html                          # Additional template for the web app
+└── truthtell_extension/                   # Chrome extension for TruthTrack
+    ├── README.md                          # Documentation for the extension
+    ├── background.js                      # Background script for the Chrome extension
+    ├── content.js                         # Content script for interacting with web pages
+    ├── manifest.json                      # Manifest file defining the Chrome extension
+    ├── popup.html                         # HTML for the popup interface of the extension
+    ├── popup.js                           # JavaScript for the popup's functionality
+    └── icons/                             # Icons used for the Chrome extension
 ```
 
 ---
