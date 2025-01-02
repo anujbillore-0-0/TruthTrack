@@ -1,0 +1,21 @@
+name: truthteller_application
+description: A new Flutter project to fetch data from an API.
+
+publish_to: 'none' # Remove this line if you are publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.12
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
