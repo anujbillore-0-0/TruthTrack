@@ -12,6 +12,8 @@ TruthTrack provides a system for analyzing news article headlines by predicting 
 3. **Custom Search Integration**: Fetches top 5 related headlines from the web using the Custom Search API.
 4. **Combined Similarity Score**: Aggregates similarity scores using the harmonic mean for better relevance analysis.
 5. **Web Application**: A Flask-based user interface for interacting with the system.
+6. **Mobile Application**: A Mobile Application created in Flutter interacting with the system.
+7. **Chrome Extention**: A Extenstion directly integrating with the system. 
 
 ---
 
@@ -47,12 +49,12 @@ TruthTrack provides a system for analyzing news article headlines by predicting 
    pip install flask
    ```
 
-3. **Run the Application**:
+3. **Run the Web-Application**:
    ```bash
    python App.py
    ```
 
-4. **Access the Application**:
+4. **Access the Web-Application**:
    Open your browser and navigate to `http://127.0.0.1:5000/`.
 
 ---
