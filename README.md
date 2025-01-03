@@ -179,3 +179,5 @@ murtaza-sadri-19-TruthTrack/
 4. Enhance Custom Search integration with additional filters.
 
 ---
+©2025 GS Geeks & Bits. All rights reserved.<br>
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
